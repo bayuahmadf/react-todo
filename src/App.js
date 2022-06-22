@@ -20,7 +20,7 @@ useEffect(() => {
 //use effect
 useEffect(() => {
   filterHandler();
-  saveLocalTodos();
+  saveLocalTodos();//eslint-disable-next-line
 }, [todos, status]);
 
   //functions
